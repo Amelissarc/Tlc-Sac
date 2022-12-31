@@ -153,5 +153,12 @@ main {
     padding-top: 5%;
     text-align: left; }
 
-.conect ul a li img {
-  width: 50px; }
+div.conect ul {
+  display: flex;
+  flex-direction: row; }
+  div.conect ul a {
+    padding: 20px;
+    text-decoration: none;
+    list-style: none; }
+  div.conect ul img {
+    width: 50px; }

@@ -34,7 +34,7 @@ footer {
 .left-menu {
   background-color: whitesmoke;
   position: relative;
-  width: 4.5rem;
+  width: 4.6rem;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -49,7 +49,7 @@ footer {
   display: flex; }
 
 .logo {
-  width: 80px;
+  width: 75px;
   position: relative;
   top: 1rem;
   margin-bottom: 2rem;
@@ -60,7 +60,7 @@ footer {
   align-items: center; }
 
 .logo img {
-  width: 40px;
+  width: 35px;
   z-index: 100;
   position: absolute; }
 
@@ -80,7 +80,7 @@ footer {
   text-align: left;
   width: 300px;
   text-decoration: none;
-  padding: 10px; }
+  padding: 15px; }
 
 .left-menu ul {
   margin-top: 2rem;
@@ -99,7 +99,7 @@ ul li {
 ul li a {
   text-decoration: none;
   color: #14416f;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   cursor: pointer;
   transition: all .3s linear;
   margin-right: 1.2rem; }

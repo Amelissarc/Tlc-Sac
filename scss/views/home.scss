@@ -4,29 +4,35 @@
     flex-direction: column;
     position:absolute;
     margin-left: 20%;
-    margin-right: 5%;
-    top: 5%;
+    margin-right: 8%;
+    top: 15%;
     text-align: center;
     .title-hero {
         margin-left: -10%;
     }
     .text-hero {
-        padding: 12px;
+        padding: 15px;
         padding-top: 5%;
-        text-align: left;
+        text-align: justify;
     }
 }
 
 div.conect ul {
     display:flex;
     flex-direction: row;
+    margin-left: 20%;
+    align-items: center;
     a {
-        padding: 20px;
+        padding: 0px 30px;
         text-decoration: none;
         list-style: none;
     }
-    
     img {
         width: 50px;
     }  
+    i {
+        font-size: 50px;
+        color: rgb(115, 215, 115);
+    }
+
 }

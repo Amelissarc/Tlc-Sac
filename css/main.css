@@ -143,22 +143,27 @@ main {
   flex-direction: column;
   position: absolute;
   margin-left: 20%;
-  margin-right: 5%;
-  top: 5%;
+  margin-right: 8%;
+  top: 15%;
   text-align: center; }
   .content .title-hero {
     margin-left: -10%; }
   .content .text-hero {
-    padding: 12px;
+    padding: 15px;
     padding-top: 5%;
-    text-align: left; }
+    text-align: justify; }
 
 div.conect ul {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  margin-left: 20%;
+  align-items: center; }
   div.conect ul a {
-    padding: 20px;
+    padding: 0px 30px;
     text-decoration: none;
     list-style: none; }
   div.conect ul img {
     width: 50px; }
+  div.conect ul i {
+    font-size: 50px;
+    color: #73d773; }

@@ -12,6 +12,7 @@
     flex-direction: column;
     overflow: hidden;
     transition: all .3s ease;
+    z-index: 100;
 }
 .left-menu:hover {
     width: 13rem;

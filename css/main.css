@@ -129,6 +129,15 @@ main {
   display: flex;
   font-family: 'Montserrat', sans-serif; }
 
+.alert {
+  display: flex;
+  margin-left: 15%; }
+  .alert i {
+    font-size: 30px;
+    color: red; }
+  .alert p {
+    padding-left: 10px; }
+
 .content {
   display: flex;
   flex-direction: column;
@@ -140,5 +149,9 @@ main {
   .content .title-hero {
     margin-left: -10%; }
   .content .text-hero {
-    padding: 10px;
-    padding-top: 5%; }
+    padding: 12px;
+    padding-top: 5%;
+    text-align: left; }
+
+.conect ul a li img {
+  width: 50px; }

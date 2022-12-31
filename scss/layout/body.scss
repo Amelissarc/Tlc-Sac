@@ -8,3 +8,15 @@ main {
    display: flex;
    font-family:'Montserrat', sans-serif;;
 }
+
+.alert {
+    display: flex;
+    margin-left: 15%;
+    i{
+        font-size: 30px;
+        color: red;
+    }
+    p {
+        padding-left: 10px;
+    }
+}

@@ -11,12 +11,13 @@ main {
 
 .alert {
     display: flex;
-    margin-left: 15%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
     i{
         font-size: 30px;
         color: red;
     }
-    p {
-        padding-left: 10px;
-    }
+   
 }

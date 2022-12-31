@@ -1,16 +1,5 @@
-@media screen and (max-width:767px) {
-    body {
-        display: grid;
-        grid-template-areas: 
-        "header header"
-        "main main"
-        "footer footer";
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 10px auto 800px;
-        overflow-x: hidden;
-    }
-    
-    main.content {
+@media screen and (max-width:767px) { 
+    .content {
         display: flex;
         flex-direction: column;
         position:absolute;

@@ -13,6 +13,11 @@ h3 {
   font-size: 20px;
   color: #1175b8; }
 
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: black; }
+
 footer {
   background-color: #14416f;
   text-align: center;

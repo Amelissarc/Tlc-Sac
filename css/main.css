@@ -1,15 +1,46 @@
+h1 {
+  color: #14416f; }
+
+.parallas, .main, .texto {
+  margin: 0 auto; }
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  max-width: 100%;
+  position: relative; }
+
+.texto-interior {
+  color: #fff;
+  font-size: 60px;
+  font-weight: bold;
+  left: 10%;
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  width: 80%; }
+
+.img-uno {
+  background-image: url(https://images.pexels.com/photos/4091169/pexels-photo-4091169.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
+main {
+  display: flex; }
+
 .main-container {
   width: 100%;
   height: 100vh;
-  background-color: purple; }
+  background-color: white; }
 
 .left-menu {
-  background-color: white;
+  background-color: whitesmoke;
   position: relative;
   width: 4.5rem;
   height: 100vh;
@@ -28,6 +59,7 @@
   width: 80px;
   position: relative;
   top: 1rem;
+  margin-bottom: 2rem;
   left: 0.5rem;
   display: flex;
   margin: 10px 0 0 0px;
@@ -35,7 +67,7 @@
   align-items: center; }
 
 .logo img {
-  width: 100%;
+  width: 40px;
   z-index: 100;
   position: absolute; }
 
@@ -43,12 +75,13 @@
   font-weight: bold;
   padding: 10px;
   font-size: 18px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  display: contents; }
 
 .logo a {
   position: relative;
   left: 100px;
-  color: #7410f0;
+  color: #14416f;
   font-size: 18px;
   display: table;
   text-align: left;
@@ -58,20 +91,21 @@
 
 .left-menu ul {
   margin-top: 2rem;
-  margin-left: 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start; }
 
 ul li {
+  display: flex;
   list-style: none;
   margin-bottom: 1rem;
+  margin-top: 1rem;
   align-items: center;
   transition: all .3s linear; }
 
 ul li a {
   text-decoration: none;
-  color: #7410f0;
+  color: #14416f;
   font-size: 1.4rem;
   cursor: pointer;
   transition: all .3s linear;
@@ -92,4 +126,11 @@ ul li a {
 
 .left-menu ul li:hover .fa-solid, .left-menu ul li:hover a {
   font-weight: bold;
-  color: purple; }
+  color: #12b2e6; }
+
+.parallax {
+  display: flex;
+  position: absolute;
+  margin-left: 35%;
+  top: 20%;
+  text-align: center; }

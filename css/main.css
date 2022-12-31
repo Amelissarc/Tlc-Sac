@@ -145,17 +145,15 @@ main {
   flex-direction: column;
   position: absolute;
   margin-left: 22%;
-  margin-right: 15%;
-  top: 15%;
+  margin-right: 20%;
+  top: 10%;
   text-align: center; }
-  .content .title-hero {
-    margin-left: -10%; }
   .content .text-hero {
     padding-top: 5%;
     text-align: justify;
     align-items: center;
     justify-content: center;
-    text-align: center; }
+    text-align: justify; }
 
 div.conect ul {
   display: flex;

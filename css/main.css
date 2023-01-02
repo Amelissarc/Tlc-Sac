@@ -18,6 +18,10 @@ p {
   font-weight: 300;
   color: black; }
 
+/* Acordeon */
+.accordion-body p {
+  text-align: justify; }
+
 footer {
   background-color: #14416f;
   text-align: center;

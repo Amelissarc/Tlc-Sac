@@ -15,6 +15,13 @@
         "list": "off",
         "listitem": "off"
       }
-    ]
+    ],
+    "axe/parsing": [
+      "default",
+      {
+        "duplicate-id-aria": "off"
+      }
+    ],
+    "no-inline-styles": "off"
   }
 }

@@ -1,0 +1,20 @@
+.tools {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 5%;
+    i {
+        font-size: 50px;
+        color: #14416f;
+    }
+    i:hover {
+        font-size: 60px;
+        color: #12b2e6; 
+    }
+    .tools-item {
+        margin: 15px 40px;
+    }
+    .tools-title {
+        padding: 5px;
+    }
+}

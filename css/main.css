@@ -181,3 +181,29 @@ div.conect ul {
   div.conect ul i {
     font-size: 50px;
     color: #73d773; }
+
+.button_link {
+  background-color: #14416f;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 8px; }
+
+.button_link:hover {
+  background-color: #12b2e6; }
+
+.tools {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 5%; }
+  .tools i {
+    font-size: 50px;
+    color: #14416f; }
+  .tools i:hover {
+    font-size: 60px;
+    color: #12b2e6; }
+  .tools .tools-item {
+    margin: 15px 40px; }
+  .tools .tools-title {
+    padding: 5px; }

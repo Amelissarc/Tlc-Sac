@@ -1,4 +1,14 @@
 /* Acordeon */
+.accordion {
+    display: flex;
+    justify-content:space-evenly;
+    
+    .accordion-colum {
+        width: 100%;
+        margin: 10px;
+    }
+
+}
 .accordion-body p {
     text-align: justify;
 }

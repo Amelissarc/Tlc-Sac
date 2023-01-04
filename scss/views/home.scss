@@ -1,20 +1,3 @@
-
-.content {
-    display: flex;
-    flex-direction: column;
-    top: 10%;
-    text-align: center;
-    height: auto;
-    width: 100%;
-    .text-hero {
-        padding-top: 5%;
-        text-align: justify;
-        align-items: center;
-        justify-content: center;
-        text-align: justify;
-    }
-}
-
 div.conect ul {
     display:flex;
     flex-direction: row;
@@ -33,5 +16,4 @@ div.conect ul {
         font-size: 50px;
         color: rgb(115, 215, 115);
     }
-
 }

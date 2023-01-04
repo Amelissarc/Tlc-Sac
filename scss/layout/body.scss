@@ -8,6 +8,7 @@ main {
    display: flex;
    font-family:'Montserrat', sans-serif;
    height: auto;
+   width: 100%;
 }
 
 .alert {
@@ -21,6 +22,27 @@ main {
         color: red;
     }
    
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    .text-hero {
+        padding: 5%;
+        text-align: justify;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+    }
+    p {
+        width: 100%;
+        word-wrap: break-word;
+    }
 }
 
 

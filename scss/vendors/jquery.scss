@@ -1,15 +1,31 @@
-@media screen and (max-width:767px) { 
-    .content {
+@media screen and (max-width:767px) {
+    main {
+        display: flex;
+        font-family:'Montserrat', sans-serif;
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+     }
+    div.content {
         display: flex;
         flex-direction: column;
         position:absolute;
-        top: 0%;
+        margin-top: 5%;
         margin: 10px;
         }   
-        .text-hero {
-            padding-top: 5%;
-            align-items: center;
-            justify-content:center;
-        }
-    
+    div.text-hero {
+        padding-top: 5%;
+        align-items: center;
+        justify-content:center;
+    }
+    p {
+        width: 100%;
+        word-wrap: break-word;
+    }
+    .accordion {
+        display: flex;
+        flex-direction: column;
+    }
+        
+      
 }

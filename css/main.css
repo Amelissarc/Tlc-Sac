@@ -139,7 +139,8 @@ ul li a {
 main {
   display: flex;
   font-family: 'Montserrat', sans-serif;
-  height: auto; }
+  height: auto;
+  width: 100%; }
 
 .alert {
   display: flex;
@@ -154,16 +155,20 @@ main {
 .content {
   display: flex;
   flex-direction: column;
-  top: 10%;
+  margin-top: 5%;
   text-align: center;
   height: auto;
-  width: 100%; }
+  width: 100%;
+  overflow: hidden; }
   .content .text-hero {
-    padding-top: 5%;
+    padding: 5%;
     text-align: justify;
     align-items: center;
     justify-content: center;
     text-align: justify; }
+  .content p {
+    width: 100%;
+    word-wrap: break-word; }
 
 div.conect ul {
   display: flex;

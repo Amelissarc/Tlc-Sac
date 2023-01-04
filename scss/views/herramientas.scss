@@ -2,7 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 5%;
+    margin: 5% 10%;
+    padding: 5%;
     i {
         font-size: 50px;
         color: #14416f;
@@ -43,24 +44,25 @@
     margin-bottom: 5%;
 }
 
-button {
-  cursor: pointer;
-  margin: 5px;
-  padding: 0;
-  font-size: 1.5em;
-  border: none;
-  background-color: #14416f;
-  box-shadow: 5px 5px 10px -3px #00000040, -5px -5px 15px 3px #00ffc11f;
-  color: #fff;
+button.dif {
+    cursor: pointer;
+    margin: 5px;
+    padding: 0;
+    font-size: 1.5em;
+    border: none;
+    background-color: #14416f;
+    box-shadow: 5px 5px 10px -3px #00000040, -5px -5px 15px 3px #00ffc11f;
+    color: #fff;
 }
-
-button:active {
+button.dif:active {
     background-color: #12b2e6;
 }
-
-button:focus {
+button.dif:focus {
     outline: none;
 }
+
+
+
 
 .colum-2 {
     grid-column: span 2;

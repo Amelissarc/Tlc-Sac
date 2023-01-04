@@ -17,3 +17,4 @@ class Display {
         this.displayValorAnterior.textContent = this.valorAnterior;
     }
 }
+ 

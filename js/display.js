@@ -8,12 +8,12 @@ class Display {
     }
 
     agregarNumero(numero) {
-        this.valorActual = numero
-        this.imprimirValores
+        this.valorActual = numero;
+        this.imprimirValores();
     }
 
     imprimirValores() {
         this.displayValorActual.textContent = this.valorActual;
-        this.displayValorAnterior.textContent = this.valorAnterior
+        this.displayValorAnterior.textContent = this.valorAnterior;
     }
 }

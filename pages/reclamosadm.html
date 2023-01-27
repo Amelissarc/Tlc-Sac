@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sac</title>
+    <!-- Css -->
+    <link rel="stylesheet" href="../css/main.css">
+    <!-- Tipografías  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/e915ed1876.js" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../assets/img/icono-azulclaro.png" type="image/x-icon">
+</head>
+
+<!-- Content -->
+<body style="overflow-x: hidden;">
+    <main>
+        <!-- Menú -->
+        <div class="main-container">
+            <div class="left-menu">
+                <div class="logo">
+                    <img src="../assets/img/icono-azulclaro.png" alt="logo">
+                    <span><a href="https://telecentro.com.ar/" target="_blank" rel="noopener">TELECENTRO</a></span>
+                </div>
+                <ul>
+                    <li class="sidebar-items"> <a class="sidebar-link" href="../index.html"><i class="fa-solid fa-house"></i>
+                    </a>Inicio</li>
+                    <li class="sidebar-items"> <a class="sidebar-link" href="../pages/herramientas.html"><i class="fa-solid fa-toolbox"></i>
+                    </a>Herramientas</li>
+                    <li class="sidebar-items"> <a class="sidebar-link" href="../pages/promociones.html"><i class="fa-solid fa-gift"></i>
+                    </a>Promociones</li>
+                    <li class="sidebar-items"> <a class="sidebar-link" href="../pages/calidad.html"><i class="fa-solid fa-chart-line"></i>
+                    </a>Calidad</li>
+                    <li class="sidebar-items"> <a class="sidebar-link" href="../pages/objetivos.html"><i class="fa-solid fa-headset"></i>
+                    </a>Objetivos</li>
+                    <li class="sidebar-items"> <a class="sidebar-link" href="../pages/informacion.html"><i class="fa-solid fa-book"></i>
+                    </a> Información</li>
+                    <li class="sidebar-items" id="settings"> <a class="sidebar-link" href="#"><i class="fa-solid fa-gear"></i>
+                    </a>Configuración</li>
+                </ul>
+            </div>
+            <!--Right content goes here-->
+            <div class="right-content"></div>
+        </div>
+
+        <!-- Contenido -->
+        <body>
+            <div class="content">
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-colum">
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne" _msthash="1028378" _msttexthash="466284"> Ticket fuera de plazo</button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body">
+                                <p>Se usa cuando un cliente tiene abierto un ticket técnico y al verlo desde moika vemos que en el historial supera 48hrs desde la ultima vez que se gestiono algo sobre ese ticket.</p>
+                                <p><strong>En la Info del RA vamos a poner:</strong></p><p>Buenos días/tardes, por favor verificar ticket n°: XXX ya que se ve que el ultimo que se gestiono fue el día XXX. por favot volver a dar curso; Gracias.</p>
+                            </div>
+                            </div>
+                        </div>
+            
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo" _msthash="1040611" _msttexthash="466622"> Sobreturnos service/ ccdd </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo" _msthidden="1">
+                            <div class="accordion-body" _msthidden="1">
+                                <p>En caso de que el cliente necesite VT por ccdd o problema técnico en domicilio y la agenda técnica nos de para una fecha alejada y el cliente se queje, podemos generar sobreturno.</p>
+                                <p><strong>Datos a poner en el RA:</strong></p><p>Poner motivo de sobreturno , vt real (la que se selecciona en el sistema), VT de sobreturno (la que arreglamos con team leader), zona de VT (Sur/Norte/CABA/Oeste), teléfono de contacto, mail de contacto. </p>
+                            </div>
+                            </div>
+                        </div>
+            
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree" _msthash="1143545" _msttexthash="466960">Ventas/ Comercial </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree" _msthidden="1">
+                            <div class="accordion-body" _msthidden="1">
+                                <p>Si un cliente llama, informando que desde ventas le ofrecieron un plan a $XXX y que la boleta le llego por otro importe, podemos generar el reclamo con dicho RA. Debemos poner lo que el cliente nos comente en base al precio ofrecido, número de teléfono y mail de contacto.</p>
+                            </div>
+                            </div>
+                        </div>
+            
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour" _msthash="947531" _msttexthash="97934694" > Sistema </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour" _msthidden="1">
+                            <div class="accordion-body" _msthidden="1">
+                                <p>Se usa para varias cosas y dependiendo de cual sea el problema, es la inforación que vamos a poner. Ejemplo:</p>
+                                <ul>
+                                    <li>Cliente indica tener un deco en su domicilio que en sistema no aparece.</li>
+                                    <li>Cliente informa no poder realizar/recibir llamadas teléfonicas, se carga dicho RA con el informe del problema.</li>
+                                    <li>Cliente con ID 121 el cual no se pueda solucionar de i3, deberá cargarse dicho reclamo informando número de MAC del artefacto que tenga ese error, y un número de telénofo.</li>
+                                </ul>
+                            </div>
+                            </div>
+                        </div>
+            
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive" _msthash="1143545" _msttexthash="466960"> Armado de edificio </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive" _msthidden="1">
+                            <div class="accordion-body" _msthidden="1">
+                                <p>Se usa cuando el edificio al cual el cliente se muda aun no tiene caja, se debe poner numero de teléfono y mail de contacto para pedir el formulario.</p>
+                            </div>
+                            </div>
+                        </div>
+            
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix" _msthash="947531" _msttexthash="97934694" > Baja BO SAC </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix" _msthidden="1">
+                            <div class="accordion-body" _msthidden="1">
+                                <p>Se usa cuando un cliente pidió la baja de un servicio, se recupero, pero el cliente entrego los artefactos.</p>
+                            </div>
+                            </div>
+                        </div>
+            
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false" aria-controls="panelsStayOpen-collapseSeven" _msthash="1143545" _msttexthash="466960"> Cobranzas</button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSeven" _msthidden="1">
+                            <div class="accordion-body" _msthidden="1">
+                                <ul>
+                                    <li>Cte con DNI no autorizado (porque debe artefactos), si el cliente dice que ya lo entrego se pide que envíe comprobante de recupero al mail de sac_cliente@telecentro.net.ar y se carga este RA poniendo desde que mail el cte lo va a envíar y el problema.</li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                            </div>
+                        </div>
+        
+                    </div>
+                    <div class="accordion-colum">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingEight">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="false" aria-controls="panelsStayOpen-collapseEight" _msthash="1143545" _msttexthash="466960"> Facturación </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingEight" _msthidden="1">
+                            <div class="accordion-body" _msthidden="1">
+                                <p>Si el cliente tiene una BOLETA A PAPEL y no le llega se cara dicho RA con domicilio del cleinte y los meses que no le llegaron sus facturaciones.</p>
+                            </div>
+                            </div>
+                        </div>
+            
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingNine">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseNine" aria-expanded="false" aria-controls="panelsStayOpen-collapseNine" _msthash="1143545" _msttexthash="466960">GA pendiente de validación </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseNine" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingNine" _msthidden="1">
+                            <div class="accordion-body" _msthidden="1">
+                                <p>Si al cargar un ccdd queda pendiente de validación, dependiendo del motivo por el cual sea, se debe cargar este RA poniendo domicilio al cual se muda (calle, altura, entre calles,partido/localidad, piso y depto), un teléfono y un mail de contacto.</p>
+                            </div>
+                            </div>
+                        </div>
+            
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingTen">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTen" aria-expanded="false" aria-controls="panelsStayOpen-collapseTen" _msthash="1143545" _msttexthash="466960"> Packs/Eventos </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTen" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTen" _msthidden="1">
+                            <div class="accordion-body" _msthidden="1">
+                                <p>Si al momento de querer cargar una bonificación de pack no aparece, debemos cargar el RA, informando que promo ofrecimos y sobre que pack</p>
+                            </div>
+                            </div>
+                        </div>
+            
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingEleven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEleven" aria-expanded="false" aria-controls="panelsStayOpen-collapseEleven" _msthash="1143545" _msttexthash="466960"> Pedido de prioridad para VT service </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseEleven" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingEleven" _msthidden="1">
+                            <div class="accordion-body" _msthidden="1">
+                                <p>Si el cliente tiene muchas VT incumplidas en muy poco tiempo, podemos cargar este RA, con n° VT incumplidas pidiendo que se le de una prioridad.</p>
+                            </div>
+                            </div>
+                        </div>
+            
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingTwelve">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwelve" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwelve" _msthash="1143545" _msttexthash="466960"> Reintegro </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwelve" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwelve" _msthidden="1">
+                            <div class="accordion-body" _msthidden="1">
+                                <p>Si un cliente abono dinero de más y lo tiene a favor, se puede generar un reintegro de esa plata (con previa autorización del team leader).</p>
+                            </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingTwhirteen">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwhirteen" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwhirteen" _msthash="1143545" _msttexthash="466960"> Control remoto/fallado/incompleto</button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwhirteen" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwhirteen" _msthidden="1">
+                            <div class="accordion-body" _msthidden="1">
+                                <p>Se usa por cualquier reclamo que deba hacerse en base al control remoto.</p>
+                            </div>
+                            </div>
+                        </div>
+            
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingFourteen">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFourteen" aria-expanded="false" aria-controls="panelsStayOpen-collapseFourteen" _msthash="1143545" _msttexthash="466960"> Recambio Sagemcom a 4k</button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFourteen" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFourteen" _msthidden="1">
+                            <div class="accordion-body" _msthidden="1">
+                                <p>Por cliente podemos cambiar solo un decodificadores sin costo.</p>
+                                <p>Si es una venta de decodificador 4k no lo podemos ofrecer sin costo, en este caso podriamos ofrecer una bonificación de producto o porcentual si el cliente exige la baja por este motivo.</p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </main>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<footer>
+    <div class="footer">
+        <small>&copy;2022 <b>JABA; Unity Desing</b> -Todos los derechos reservados.</small>
+    </div>
+</footer>
